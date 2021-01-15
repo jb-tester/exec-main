@@ -33,8 +33,11 @@
                 <configuration>
                     <executable>java</executable>
                     <mainClass>a.b.c.MainClass</mainClass>
+
                     <arguments>
                         <argument>-classpath</argument>
+                        <argument>foo</argument>
+                        <argument>bar</argument>
                     </arguments>
                 </configuration>
             </plugin>
