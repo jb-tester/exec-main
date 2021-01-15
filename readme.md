@@ -1,4 +1,4 @@
-project to test exec-maven-plugin
+###### project to test exec-maven-plugin
 
 here we have 2 main classes, and 2 different approaches for maven run configurations creating.
 
