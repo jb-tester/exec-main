@@ -18,6 +18,26 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <id>java</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>java</executable>
+                    <mainClass>a.b.c.MainClass</mainClass>
+                    <arguments>
+                        <argument>-classpath</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
